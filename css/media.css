@@ -1,7 +1,7 @@
 /* mobile phone and smart portable devices */
 @media screen and (max-width: 479px) {
   .main {
-    padding-top: 40pt;
+    padding-top: 32pt;
   }
   .navbar {
     display: none;
@@ -16,7 +16,7 @@
   .navbar-mobile .container {
     padding: 0;
     margin: 0;
-    line-height: 5.5em;
+    line-height: 2em;
     background: $light-background-color;
   }
   .navbar-mobile .container .navbar-header {
@@ -31,7 +31,7 @@
   }
   .navbar-mobile .container .navbar-header .menu-toggle {
     cursor: pointer;
-    line-height: 5.5em;
+    line-height: 32pt;
     padding: auto 2em;
   }
   .navbar-mobile .container .navbar-header .menu-toggle span {
@@ -78,9 +78,9 @@
   .navbar-mobile .container .menu {
     text-align: center;
     background: #fff;
-    border-top: 1px solid #000;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    border-top: 1px solid $light-border-color;
+    padding-top: 4px;
+    padding-bottom: 4px;
     display: none;
     box-shadow: 0px 2px 4px rgba(0,0,0,0.1), 0px 4px 8px rgba(0,0,0,0.1);
   }
@@ -96,8 +96,8 @@
     overflow-x: auto;
   }
   .dark-theme .navbar-mobile .container .menu {
-    background: $dark-background-color;
-    border-top: 2px solid $dark-font-secondary-color;
+    background: $dark-border-color;
+    border-top: 1px solid $dark-font-secondary-color;
   }
   .dark-theme .navbar-mobile .container {
     background: $dark-background-color !important;
