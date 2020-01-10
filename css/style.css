@@ -1015,7 +1015,7 @@ header label {
 
 @media screen and (max-width: 479px) {
   .main {
-    padding-top: 40pt;
+    padding-top: 32pt;
   }
   .navbar {
     display: none;
@@ -1030,7 +1030,7 @@ header label {
   .navbar-mobile .container {
     padding: 0;
     margin: 0;
-    line-height: 5.5em;
+    line-height: 2em;
     background: #fff;
   }
   .navbar-mobile .container .navbar-header {
@@ -1045,7 +1045,7 @@ header label {
   }
   .navbar-mobile .container .navbar-header .menu-toggle {
     cursor: pointer;
-    line-height: 5.5em;
+    line-height: 32pt;
     padding: auto 2em;
   }
   .navbar-mobile .container .navbar-header .menu-toggle span {
@@ -1092,9 +1092,9 @@ header label {
   .navbar-mobile .container .menu {
     text-align: center;
     background: #fff;
-    border-top: 1px solid #000;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    border-top: 1px solid #bdbdbd;
+    padding-top: 4px;
+    padding-bottom: 4px;
     display: none;
     box-shadow: 0px 2px 4px rgba(0,0,0,0.1), 0px 4px 8px rgba(0,0,0,0.1);
   }
@@ -1110,8 +1110,8 @@ header label {
     overflow-x: auto;
   }
   .dark-theme .navbar-mobile .container .menu {
-    background: #212121;
-    border-top: 2px solid #9e9e9e;
+    background: #9e9e9e;
+    border-top: 1px solid #9e9e9e;
   }
   .dark-theme .navbar-mobile .container {
     background: #212121 !important;
