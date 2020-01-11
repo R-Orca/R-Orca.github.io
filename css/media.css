@@ -96,7 +96,7 @@
     overflow-x: auto;
   }
   .dark-theme .navbar-mobile .container .menu {
-    background: $dark-border-color;
+    background: $dark-background-color;
     border-top: 1px solid $dark-font-secondary-color;
   }
   .dark-theme .navbar-mobile .container {
