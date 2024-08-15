@@ -18,7 +18,7 @@ export default function Home() {
       <h1 className="text-5xl md:text-6xl lg:text-7xl text-right">
         Kaburagi.M
       </h1>
-      <h2 className="text-2xl text-right">Composer / Pianist</h2>
+      <h2 className="text-2xl text-right">Composer & Pianist</h2>
       <h3 className="text-right mb-16">Tokyo, Japan</h3>
       <div className="flex flex-row-reverse text-lg text-center mb-4">
         <Link

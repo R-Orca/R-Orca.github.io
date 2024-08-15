@@ -1,4 +1,9 @@
+import { Metadata } from "next";
 import { Menu } from "@/components/menu";
+
+export const metadata: Metadata = {
+  title: 'Contact',
+}
 
 export default function Contact() {
   return (
@@ -18,8 +23,7 @@ export default function Contact() {
             <li>メール：Maburagi gmail.com</li>
           </ul>
           <div className="text-sm">
-            ※
-            数日以内に返信がない場合、お手数ですがもう片方の連絡先までご連絡ください。
+            ※ 数日以内に返信がない場合、お手数ですがもう片方の連絡先までご連絡ください。
           </div>
         </div>
       </div>

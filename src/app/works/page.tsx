@@ -1,7 +1,12 @@
+import { Metadata } from "next";
 import { YouTubeEmbed } from "@next/third-parties/google";
 import { Menu } from "@/components/menu";
 import { VideoElement } from "@/components/videoElement";
 import Youtube from "/public/youtube.svg";
+
+export const metadata: Metadata = {
+  title: 'Works',
+}
 
 export default function Works() {
   return (

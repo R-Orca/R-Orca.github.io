@@ -1,9 +1,15 @@
+import { Metadata } from "next";
 import { Menu } from "@/components/menu";
 import Youtube from "/public/youtube.svg";
 import X from "/public/x.svg";
 import Note from "/public/note.svg";
 import Instagram from "/public/instagram.svg";
 import { LinkElement } from "@/components/linkElement";
+
+
+export const metadata: Metadata = {
+  title: 'Links',
+}
 
 export default function Links() {
   return (
