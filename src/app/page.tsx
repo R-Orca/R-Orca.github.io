@@ -10,9 +10,11 @@ export default function Home() {
         <Image
           src="/top.jpg"
           alt="main image"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="80% 95%"
+          fill
+          style={{
+            objectFit: "cover",
+            objectPosition: "80% 95%",
+          }}
         ></Image>
       </div>
       <h1 className="text-5xl md:text-6xl lg:text-7xl text-right">

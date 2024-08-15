@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { Menu } from "@/components/menu";
 
 export const metadata: Metadata = {
-  title: 'Contact',
+  title: 'Links',
 }
 
 export default function Contact() {

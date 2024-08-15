@@ -1,6 +1,12 @@
 /** @type {import(‘next’).NextConfig} */
 const nextConfig = {
   /* config options here */
+  output: "export",
+
+  images: {
+    unoptimized: true,
+    // 静的web化のためImageコンポーネントの最適化を無効にする    
+  },
 
   webpack(config) {
     // Grab the existing rule that handles SVG imports
