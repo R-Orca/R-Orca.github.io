@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export const Menu = () => {
   return (
-    <div>
-      <div className="text-5xl text-right">
+    <div className="mb-16">
+      <div className="text-5xl text-right mb-4">
         <Link href={"/"} className="hover:opacity-75">
           Kaburagi.M
         </Link>
@@ -13,14 +13,14 @@ export const Menu = () => {
           href={"/contact"}
           className="basis-[7%] flex-initial hover:opacity-75"
         >
-          contact
+          Contact
         </Link>
         <div className="basis-[5%] flex-none">|</div>
         <Link
           href={"/links"}
           className="basis-[7%] flex-initial hover:opacity-75"
         >
-          links
+          Links
         </Link>
         <div className="basis-[5%] flex-none">|</div>
 
@@ -28,7 +28,7 @@ export const Menu = () => {
           href={"/works"}
           className="basis-[7%] flex-initial hover:opacity-75"
         >
-          works
+          Works
         </Link>
       </div>
     </div>

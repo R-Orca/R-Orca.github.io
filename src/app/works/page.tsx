@@ -5,8 +5,8 @@ import Youtube from "/public/youtube.svg";
 
 export default function Works() {
   return (
-    <div className="container mx-auto max-w-5xl px-8 pt-12 pb-16 flex flex-col">
-      <div className="mb-16">
+    <div className="container mx-auto min-w-[360px] max-w-3xl px-8 pt-12 pb-16 flex flex-col">
+      <div>
         <Menu />
       </div>
       <div className="space-y-8">

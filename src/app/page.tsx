@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="container mx-auto max-w-2xl h-dvh px-8 pb-16 pt-12 flex flex-col">
-      <div className="flex-auto relative my-16">
+    <div className="container mx-auto min-w-[360px] max-w-3xl h-[max(100dvh,600px)] px-8 pb-16 pt-12 flex flex-col">
+      <div className="grow shrink-0 basis-32 relative my-16">
         <Image
           src="/top.jpg"
           alt="main image"
@@ -15,7 +15,7 @@ export default function Home() {
           objectPosition="80% 95%"
         ></Image>
       </div>
-      <h1 className="text-[clamp(40px,calc(10px+6vi),72px)] text-right">
+      <h1 className="text-5xl md:text-6xl lg:text-7xl text-right">
         Kaburagi.M
       </h1>
       <h2 className="text-2xl text-right">Composer / Pianist</h2>
@@ -25,21 +25,21 @@ export default function Home() {
           href={"/contact"}
           className="basis-[7%] flex-initial hover:opacity-75"
         >
-          contact
+          Contact
         </Link>
         <div className="basis-[5%] flex-none">|</div>
         <Link
           href={"/links"}
           className="basis-[7%] flex-initial hover:opacity-75"
         >
-          links
+          Links
         </Link>
         <div className="basis-[5%] flex-none">|</div>
         <Link
           href={"/works"}
           className="basis-[7%] flex-initial hover:opacity-75"
         >
-          works
+          Works
         </Link>
       </div>
       <div className="flex space-x-4">

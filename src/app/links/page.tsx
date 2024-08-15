@@ -7,13 +7,13 @@ import { LinkElement } from "@/components/linkElement";
 
 export default function Links() {
   return (
-    <div className="container mx-auto max-w-5xl h-dvh px-8 pb-16 pt-12 flex flex-col">
+    <div className="container mx-auto min-w-[360px] max-w-3xl h-[max(100dvh,600px)] px-8 pb-16 pt-12 flex flex-col">
       <div>
         <Menu />
       </div>
       <div className="flex-grow"></div>
-      <div className="space-y-12">
-        <h1 className="text-5xl mb-16">Links</h1>
+      <div className="space-y-8">
+        <h1 className="text-5xl mb-10">Links</h1>
         <LinkElement title="@Ka.M" caption="楽曲投稿・配信" url="https://www.youtube.com/@Ka.M">
           <Youtube width="32" height="32" />
         </LinkElement>
