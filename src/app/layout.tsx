@@ -1,8 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { M_PLUS_2 } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const m_plus2 = M_PLUS_2({
+  weight: ["500", "700"],
+  subsets: ["latin"],
+  variable: "--font-mplus2",
+  display: "swap"
+});
 
 export const metadata: Metadata = {
   title: {
@@ -31,7 +36,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body className={inter.className}>{children}</body>
+      <body className={m_plus2.className}>{children}</body>
     </html>
   );
 }
