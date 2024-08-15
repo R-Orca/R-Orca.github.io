@@ -10,12 +10,12 @@ export const metadata: Metadata = {
 
 export default function Works() {
   return (
-    <div className="container mx-auto min-w-[360px] max-w-3xl px-8 pt-12 pb-16 flex flex-col">
+    <div className="container mx-auto min-w-[360px] max-w-3xl px-8 md:px-12 pt-12 pb-16 flex flex-col">
       <div>
-        <Menu />
+        <Menu current="Works" />
       </div>
       <div className="space-y-8">
-        <h1 className="text-5xl mb-10">Works</h1>
+        <h1 className="text-5xl md:text-6xl lg:text-7xl mb-10">Works</h1>
         <VideoElement caption={"#Vocal #R'n'B"}>
           <YouTubeEmbed
             videoid="j1uetax0kW4"
@@ -39,11 +39,11 @@ export default function Works() {
         </VideoElement>
         <div className="flex">
           <a
-            className="flex space-x-2 pr-4 hover:opacity-75"
+            className="flex space-x-2 pr-4 text-clickable hover:opacity-75"
             href="https://www.youtube.com/@Ka.M/videos"
           >
-            <div>More works &gt;</div>
-            <Youtube width="24" height="24" />
+            <div className="align-middle font-normal">More works &gt;</div>
+            <Youtube width="24" height="24" className="mt-[2px]" />
           </a>
           <div className="flex-auto"></div>
         </div>
