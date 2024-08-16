@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function Links() {
   return (
-    <div className="container mx-auto min-w-[360px] max-w-3xl h-[max(100dvh,625px)] px-8 md:px-12 pt-12 pb-16 flex flex-col">
+    <div className="container mx-auto min-w-[350px] max-w-3xl h-[max(100svh,625px)] px-8 md:px-12 pt-12 pb-16 flex flex-col">
       <div>
         <Menu current="Links" />
       </div>

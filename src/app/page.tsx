@@ -8,7 +8,7 @@ const BASE_PATH = nextConfig.basePath || "";
 
 export default function Home() {
   return (
-    <div className="container mx-auto min-w-[360px] max-w-3xl h-[max(100dvh,625px)] px-8 md:px-12 pt-20 pb-24 flex flex-col">
+    <div className="container mx-auto min-w-[350px] max-w-3xl h-[max(100svh,625px)] px-8 md:px-12 pt-20 pb-24 flex flex-col">
       <div className="grow shrink-0 basis-32 relative mb-16">
         <Image
           src={`${BASE_PATH}/top.jpg`}

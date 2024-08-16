@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function Works() {
   return (
-    <div className="container mx-auto min-w-[360px] max-w-3xl px-8 md:px-12 pt-12 pb-16 flex flex-col">
+    <div className="container mx-auto min-w-[350px] max-w-3xl px-8 md:px-12 pt-12 pb-16 flex flex-col">
       <div>
         <Menu current="Works" />
       </div>
