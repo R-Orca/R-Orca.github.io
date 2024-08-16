@@ -2,7 +2,7 @@ import Image from "next/image";
 import Youtube from "/public/youtube.svg";
 import X from "/public/x.svg";
 import Link from "next/link";
-import { basePath } from "../../next.config.js";
+import { basePath } from "../../next.config.js"; //後ほど取得される
 
 const BASE_PATH = basePath || "";
 
