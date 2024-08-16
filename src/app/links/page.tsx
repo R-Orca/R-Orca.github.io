@@ -9,16 +9,6 @@ import { LinkElement } from "@/components/linkElement";
 
 export const metadata: Metadata = {
   title: 'Links',
-  openGraph: {
-    title: 'Links',
-    url: 'https://kaburagi.me/links',
-    
-    // 共通項目
-    siteName: 'Kaburagi.M / Composer & Pianist',
-    locale: 'ja_JP',
-    alternateLocale: 'en_US',
-    type: 'website',
-  }
 }
 
 export default function Links() {

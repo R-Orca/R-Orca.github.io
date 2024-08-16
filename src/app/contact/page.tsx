@@ -3,16 +3,6 @@ import { Menu } from "@/components/menu";
 
 export const metadata: Metadata = {
   title: 'Contact',
-  openGraph: {
-    title: 'Contact',
-    url: 'https://kaburagi.me/contact',
-    
-    // 共通項目
-    siteName: 'Kaburagi.M / Composer & Pianist',
-    locale: 'ja_JP',
-    alternateLocale: 'en_US',
-    type: 'website',
-  }
 }
 
 export default function Contact() {

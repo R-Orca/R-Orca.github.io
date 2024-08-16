@@ -6,16 +6,6 @@ import Youtube from "/public/youtube.svg";
 
 export const metadata: Metadata = {
   title: 'Works',
-  openGraph: {
-    title: 'Works',
-    url: 'https://kaburagi.me/works',
-
-    // 共通項目
-    siteName: 'Kaburagi.M / Composer & Pianist',
-    locale: 'ja_JP',
-    alternateLocale: 'en_US',
-    type: 'website',
-  }
 }
 
 export default function Works() {
