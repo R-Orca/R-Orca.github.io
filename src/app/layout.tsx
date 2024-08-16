@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { M_PLUS_2 } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 
 const m_plus2 = M_PLUS_2({
@@ -63,6 +64,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body className={`${m_plus2.className} font-medium bg-dark text-bright`}>{children}</body>
+      <GoogleAnalytics gaId="G-464JXD6G42" />
     </html>
   );
 }
