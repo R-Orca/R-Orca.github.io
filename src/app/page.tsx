@@ -2,9 +2,9 @@ import Image from "next/image";
 import Youtube from "/public/youtube.svg";
 import X from "/public/x.svg";
 import Link from "next/link";
-import { basePath } from "../../next.config.js"; //後ほど取得される
+import nextConfig from "../../next.config.js";
 
-const BASE_PATH = basePath || "";
+const BASE_PATH = nextConfig.basePath || "";
 
 export default function Home() {
   return (

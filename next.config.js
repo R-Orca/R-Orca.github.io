@@ -3,6 +3,8 @@ const nextConfig = {
   /* config options here */
   output: "export",
 
+  basePath: 'https://R-Orca.github.io/',
+
   images: {
     unoptimized: true,
     // 静的web化のためImageコンポーネントの最適化を無効にする    
