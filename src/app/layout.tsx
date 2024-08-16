@@ -24,10 +24,35 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
+
+  openGraph: {
+    title: {
+      template: "%s | Kaburagi.M / Composer & Pianist",
+      default: "Kaburagi.M / Composer & Pianist",
+    },
+    description: '作曲家&ピアニスト Kaburagi.M のホームページ',
+    url: 'https://kaburagi.me',
+    // images: [
+    //   {
+    //     url: 'https://kaburagi.me/public/card.jpg', // Must be an absolute URL
+    //     width: 1200,
+    //     height: 630,
+    //     alt: 'Monochrome keyboard image',
+    //   }
+    // ],
+    siteName: 'Kaburagi.M / Composer & Pianist',
+    locale: 'ja_JP',
+    alternateLocale: 'en_US',
+    type: 'website',
+  },
+
+  twitter: {
+    description: '作曲家&ピアニスト Kaburagi.M のホームページ',
+    card: "summary_large_image",
+    site: '@maburagi',
+    creator: '@maburagi',
+  }
 };
-// #ToDo: MetadataBaseのルートURLの確認(github pages)
-// https://ja.next-community-docs.dev/docs/app-router/api-reference/functions/generate-metadata#metadata-object
-// openGraph の記載
 
 export default function RootLayout({
   children,

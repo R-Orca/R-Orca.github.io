@@ -2,13 +2,16 @@ import Image from "next/image";
 import Youtube from "/public/youtube.svg";
 import X from "/public/x.svg";
 import Link from "next/link";
+import { basePath } from "../../next.config.js";
+
+const BASE_PATH = basePath || "";
 
 export default function Home() {
   return (
     <div className="container mx-auto min-w-[360px] max-w-3xl h-[max(100dvh,625px)] px-8 md:px-12 pt-20 pb-24 flex flex-col">
       <div className="grow shrink-0 basis-32 relative mb-16">
         <Image
-          src="/top.jpg"
+          src={`${BASE_PATH}/top.jpg`}
           alt="main image"
           fill
           style={{
