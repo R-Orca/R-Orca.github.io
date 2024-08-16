@@ -10,6 +10,7 @@ const m_plus2 = M_PLUS_2({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://kaburagi.me'),
   title: {
     template: "%s | Kaburagi.M / Composer & Pianist",
     default: "Kaburagi.M / Composer & Pianist",

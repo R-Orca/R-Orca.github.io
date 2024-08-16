@@ -3,7 +3,7 @@ const nextConfig = {
   /* config options here */
   output: "export",
 
-  basePath: 'https://R-Orca.github.io/',
+  basePath: '',
 
   images: {
     unoptimized: true,
