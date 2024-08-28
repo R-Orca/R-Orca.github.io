@@ -1,11 +1,19 @@
 import { Metadata } from "next";
+import { openGraphData } from "../shared-metadata";
 import { YouTubeEmbed } from "@next/third-parties/google";
 import { Menu } from "@/components/menu";
 import { VideoElement } from "@/components/videoElement";
 import Youtube from "/public/youtube.svg";
 
+const TITLE = 'Works'
+
 export const metadata: Metadata = {
-  title: 'Works',
+  title: TITLE,
+
+  openGraph: {
+    title: TITLE,
+    ...openGraphData
+  }
 }
 
 export default function Works() {

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { M_PLUS_2 } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { openGraphData } from "./shared-metadata";
 import "./globals.css";
 
 const m_plus2 = M_PLUS_2({
@@ -32,20 +33,7 @@ export const metadata: Metadata = {
       template: "%s | Kaburagi.M / Composer & Pianist",
       default: "Kaburagi.M / Composer & Pianist",
     },
-    description: '作曲家&ピアニスト Kaburagi.M のホームページ',
-    url: 'https://kaburagi.me',
-    // images: [
-    //   {
-    //     url: 'https://kaburagi.me/public/card.jpg', // Must be an absolute URL
-    //     width: 1200,
-    //     height: 630,
-    //     alt: 'Monochrome keyboard image',
-    //   }
-    // ],
-    siteName: 'Kaburagi.M / Composer & Pianist',
-    locale: 'ja_JP',
-    alternateLocale: 'en_US',
-    type: 'website',
+    ...openGraphData,
   },
 
   twitter: {

@@ -1,8 +1,16 @@
 import { Metadata } from "next";
+import { openGraphData } from "../shared-metadata";
 import { Menu } from "@/components/menu";
 
+const TITLE = 'Contact'
+
 export const metadata: Metadata = {
-  title: 'Contact',
+  title: TITLE,
+
+  openGraph: {
+    title: TITLE,
+    ...openGraphData
+  }
 }
 
 export default function Contact() {
