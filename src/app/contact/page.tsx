@@ -28,7 +28,7 @@ export default function Contact() {
         <div className="font-normal">
           <ul className="list-none mb-4">
             <li><a href="https://x.com/Maburagi" className="underline hover:opacity-75">X(DM)：@Maburagi</a></li>
-            <li>メール：Maburagi*gmail.com</li>
+            <li>メール：maburagi01*gmail.com</li>
           </ul>
           <div className="text-sm">
             ※ 数日以内に返信がない場合、お手数ですがもう片方の連絡先までご連絡ください。
