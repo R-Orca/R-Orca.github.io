@@ -24,16 +24,23 @@ export default function Works() {
       </div>
       <div className="space-y-8">
         <h1 className="text-5xl md:text-6xl lg:text-7xl mb-10">Works</h1>
-        <VideoElement caption={"#Vocal #R'n'B"}>
+        <VideoElement caption={"#Vocal #Pop"}>
           <YouTubeEmbed
-            videoid="j1uetax0kW4"
+            videoid="pmoZXNYYffA"
             style="max-width: 480px;"
             params="color=white"
           />
         </VideoElement>
-        <VideoElement caption={"#Instrumental #Jazz"}>
+        <VideoElement caption={"#Vocal #R'n'B"}>
           <YouTubeEmbed
-            videoid="frLCVRy_-NA"
+            videoid="hUY_62wReVA"
+            style="max-width: 480px;"
+            params="color=white"
+          />
+        </VideoElement>
+        <VideoElement caption={"#Instrumental #D'n'B"}>
+          <YouTubeEmbed
+            videoid="ua2izlVV4pE"
             style="max-width: 480px;"
             params="color=white"
           />
