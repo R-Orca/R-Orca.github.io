@@ -78,7 +78,7 @@ export default function Works() {
         <div className="flex">
           <a
             className="flex space-x-2 pr-4 text-clickable hover:opacity-75"
-            href="https://www.youtube.com/@Ka.M/videos"
+            href="https://youtube.com/playlist?list=PLL-Zmc91oAiJRlIDROEU-sSIBdJ-O2meH&si=XZOPCwgeFX43CRRi"
           >
             <div className="align-middle font-normal">More works &gt;</div>
             <Youtube width="24" height="24" className="mt-[2px]" />
